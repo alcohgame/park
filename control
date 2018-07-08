@@ -1,0 +1,8 @@
+Package: test_exe
+Version: 0.2.1.8
+Section: admin
+Priority: optional
+Architecture: all
+Depends: bash (>= 2.05a-11)
+Maintainer: evan <evan@lsware.co.kr>
+Description: This is package install command tes -Made park
