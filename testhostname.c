@@ -1,4 +1,4 @@
-#include "test_h.h"
+#include "testh.h"
 
 void hostname(){
 	char hn[MAXHOSTNAMELEN]="";
