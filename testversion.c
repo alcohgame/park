@@ -1,4 +1,4 @@
-#include "test_h.h"
+#include "testh.h"
 void version(){
 	struct utsname buf;
 	uname(&buf);
