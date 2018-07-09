@@ -1,14 +1,14 @@
-test_exe : test_main.o test_hostname.o test_ip.o test_port.o test_version.o
-	gcc -o test_exe test_main.o test_hostname.o test_ip.o test_port.o test_version.o
-test_main.o : test_main.c
-	gcc -c -o test_main.o test_main.c
-test_hostname.o : test_hostname.c
-	gcc -c -o test_hostname.o test_hostname.c
-test_version.o : test_version.c
-	gcc -c -o test_version.o test_version.c
-test_ip.o : test_ip.c
-	gcc -c -o test_ip.o test_ip.c
-test_port.o : test_port.c
-	gcc -c -o test_port.o test_port.c
+testexe : testmain.o testhostname.o testip.o testport.o testversion.o
+	gcc -o testexe testmain.o testhostname.o testip.o testport.o testversion.o
+testmain.o : testmain.c
+	gcc -c -o testmain.o testmain.c
+testhostname.o : testhostname.c
+	gcc -c -o testhostname.o testhostname.c
+testversion.o : testversion.c
+	gcc -c -o testversion.o testversion.c
+testip.o : testip.c
+	gcc -c -o testip.o testip.c
+testport.o : testport.c
+	gcc -c -o testport.o testport.c
 clean :
-	rm *.o test_exe
+	rm *.o testexe
